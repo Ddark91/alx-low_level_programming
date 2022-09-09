@@ -5,7 +5,7 @@
  *
  * description:using the main function
  * prints 6-size.c
- * return (0)
+ * return : 0
  */
 int main(void)
 {
