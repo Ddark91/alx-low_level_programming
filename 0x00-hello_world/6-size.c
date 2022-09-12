@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
  * main - print the string
- *
  * description:using the main function
- * prints 6-size.c
- * return : 0
+ * return :always 0 (success)
  */
 int main(void)
 {
@@ -13,13 +11,11 @@ int main(void)
 	long li;
 	long long lli;
 	float f;
-	
-		printf("size of a char is: %1d byte(s)\n", sizeof(c));
-		printf("size of int: %1d byte(s)\n", sizeof(i));
-		printf("size of long is: %1d byte(s)\n", sizeof(li));
-		printf("size of long long is: %1d byte(s)\n", sizeof(lli));
-		printf("size of float is: %1d byte(s)\n", sizeof(f));
-	
+	        printf("size of a char: %1d byte(s)\n", sizeof(c));
+		printf("size of an int: %1d byte(s)\n", sizeof(i));
+		printf("size of a long int: %1d byte(s)\n", sizeof(li));
+		printf("size of a long long int: %1d byte(s)\n", sizeof(lli));
+		printf("size of a float: %1d byte(s)\n", sizeof(f));
 	return (0);
 }
 
