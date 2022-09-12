@@ -2,7 +2,7 @@
 /**
  *
  *main - Entry point
- *
+ *Description: this programs description
  *Return: Always 0 (Success)
  */
 int main(void)
