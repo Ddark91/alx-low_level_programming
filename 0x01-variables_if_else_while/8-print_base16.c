@@ -11,9 +11,9 @@ int main(void)
 	int d;
 	char low;
 
-	for (d = 'a'; d<= '0'; d++)
+	for (d = 'a'; d <= '0'; d++)
 		putchar(d);
-	for(low = 'a'; low <= 'f'; low++)
+	for (low = 'a'; low <= 'f'; low++)
 		putchar(low);
 	putchar('\n');
 
