@@ -15,7 +15,11 @@ _putchar('\n');
 else
 {
 for (x = 0; x < n; x++)
-_putchar('\');
+{
+	for (i = 0; i <= x; i++)
+		putchar(' ');
+_putchar(92);
 _putchar('\n');
+}
 }
 }
