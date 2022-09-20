@@ -9,7 +9,6 @@
  */
 
 void print_rev(char *s)
-
 {
 	int len = streln(s);
 
