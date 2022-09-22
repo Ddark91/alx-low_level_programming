@@ -10,3 +10,4 @@ char *leet(char *s);
 char *rot13(char *);
 void print_number(int n);
 int check_seperators(char c);
+int base10(int n);
