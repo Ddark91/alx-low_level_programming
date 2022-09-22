@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - entry point
+
+/**
+ * main - Entry point
  *
- * Return: always 09 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int d;
@@ -14,7 +16,7 @@ int main(void)
 	{
 		putchar((d / 10) + '0');
 		putchar((d % 10) + '0');
-	if (d != 99)
+		if (d != 99)
 		{
 			putchar(',');
 			putchar(' ');
@@ -24,4 +26,3 @@ int main(void)
 
 	return (0);
 }
-	
