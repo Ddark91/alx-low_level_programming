@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments passed into the program
+ * main - prints program name, followed by a new line
  * @argc: int
  * @argv: list
  * Return: 0
@@ -9,7 +9,7 @@
 
 int main(int argc, char const *argv[])
 {
-(void)argv;
-printf("%i\n", argc - 1);
+(void)argc;
+printf("%s\n", argv[0]);
 return (0);
 }
