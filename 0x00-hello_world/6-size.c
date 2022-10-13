@@ -2,7 +2,8 @@
 
 /**
  * main - print the string
- * description: print size of various types
+ *
+ * print the size of various variable
  * return :always 0 (success)
  */
 int main(void)
@@ -18,6 +19,7 @@ printf("Size of an int: %1d byte(s)\n", sizeof(i));
 printf("Size of a long int: %1d byte(s)\n", sizeof(li));
 printf("Size of a long long int: %1d byte(s)\n", sizeof(lli));
 printf("Size of a float: %1d byte(s)\n", sizeof(f));
+
 return (0);
 }
 
